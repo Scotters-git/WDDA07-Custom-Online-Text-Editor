@@ -34,5 +34,19 @@ namespace WDDA07
 
             return contents;
         }
+
+        public static string GetFiles()
+        {
+            string[] filePaths = Directory.GetFiles(@"c:\localwebsite\MyFiles\", "*.txt",
+                                         SearchOption.TopDirectoryOnly);
+
+            string allFilePaths = "";
+            foreach (var item in filePaths)
+            {
+                allFilePaths += item + "|";
+            }
+
+            return allFilePaths;
+        }
     }
 }
