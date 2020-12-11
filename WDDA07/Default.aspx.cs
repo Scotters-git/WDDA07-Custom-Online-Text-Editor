@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.IO;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Services;
 
 namespace WDDA07
 {
@@ -12,6 +13,26 @@ namespace WDDA07
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        [WebMethod]
+        public static string GetData()
+        {
+            return "This string is from Code behind";
+        }
+
+        public static string openFile(string path)
+        {
+            string contents = "";
+            try
+            {
+                contents = File.ReadAllText(path);
+            }
+            catch(Exception e)
+            {
+                return e.ToString();
+            }
+
+            return contents;
         }
     }
 }
