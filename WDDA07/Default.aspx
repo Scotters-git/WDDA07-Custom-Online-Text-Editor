@@ -9,6 +9,27 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <table>
+                <tr>
+                    <td>Menu:</td>
+                    <td>
+                        <p>In the text box below feel free to edit your text documents however you see fit!  </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
         </div>
     </form>
 </body>
