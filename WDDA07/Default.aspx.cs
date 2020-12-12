@@ -19,7 +19,7 @@ namespace WDDA07
         {
             return "This string is from Code behind";
         }
-
+        [WebMethod]
         public static string openFile(string path)
         {
             string contents = "";
@@ -34,7 +34,7 @@ namespace WDDA07
 
             return contents;
         }
-
+        [WebMethod]
         public static string GetFiles()
         {
             string[] filePaths = Directory.GetFiles(@"c:\localwebsite\MyFiles\", "*.txt",
