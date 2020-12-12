@@ -32,7 +32,7 @@ DESCRIPTION     : This is our aspx page that will be housing the html page/clien
                         <button name="SaveExisting" id="SaveExisting" type="button">Save Existing</button>
                     </td>
                     <td>
-                        <button name="SaveNew" id="SaveNew" type="button"> Save New</button>
+                        <button name="SaveNew" id="SaveNew" type="button">Save New</button>
                     </td>
                     <td>
                         <button name="Delete" id="Delete" type="button">Delete</button>
