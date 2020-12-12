@@ -2,9 +2,9 @@
 
 <!DOCTYPE html>
 <!-- 
-NAME            :
-PROJECT         :
-PROGRAMMERS     :
+NAME            : 
+PROJECT         : Web Development and Design Assignment 7
+PROGRAMMERS     : Jacob Seguin & Scott Page
 FIRST VERSION   : 
 DESCRIPTION     :
     
@@ -24,6 +24,9 @@ DESCRIPTION     :
                 <tr>
                     <td>
                         <select id="FileAccess" name="FileAccess"/>
+                    </td>
+                    <td>
+                        <button name="OpenExisting" id="OpenExisting" type="button">Open Selected</button>
                     </td>
                     <td>
                         <button name="SaveExisting" id="SaveExisting" type="button">Save Existing</button>
