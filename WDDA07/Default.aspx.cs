@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+*   NAME            : WebEditor.aspx.cs
+*   PROJECT         : Web Development and Design Assignment 7
+*   PROGRAMMER      : Jacob Seguin & Scott Page
+*   FIRST VERSION   : December 10th, 2020
+*   DESCRIPTION     : This file contains all of our functionality for the WebEditors text file methods.
+* 
+* 
+*/ 
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Web;

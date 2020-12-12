@@ -2,13 +2,13 @@
 
 <!DOCTYPE html>
 <!-- 
-NAME            : 
+
+NAME            : WebEditor.aspx
 PROJECT         : Web Development and Design Assignment 7
 PROGRAMMERS     : Jacob Seguin & Scott Page
-FIRST VERSION   : 
-DESCRIPTION     :
-    
-    
+FIRST VERSION   : December 10th, 2020
+DESCRIPTION     : This is our aspx page that will be housing the html page/client side of our text editor.
+ 
 -->
 
 
