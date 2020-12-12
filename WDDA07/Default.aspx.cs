@@ -48,5 +48,20 @@ namespace WDDA07
 
             return allFilePaths;
         }
+
+        [WebMethod]
+        public static string SaveFiles()
+        {
+            string[] filePaths = Directory.GetFiles(@"c:\localwebsite\MyFiles\", "*.txt",
+                                         SearchOption.TopDirectoryOnly);
+
+            string allFilePaths = "";
+            foreach (var item in filePaths)
+            {
+                allFilePaths += item + "|";
+            }
+
+            return allFilePaths;
+        }
     }
 }
